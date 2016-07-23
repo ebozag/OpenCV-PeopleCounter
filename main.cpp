@@ -5,25 +5,15 @@ LABORATORIO: DETECCION DE MOVIMIENTO - BACKGROUND SUBTRACTION
 Este laboratorio tiene como objetivo usar las funciones de OpenCV para realizar detecci�n de movimiento. 
 Las funciones que se usan son las de: Background Subtraction. Entre estas funciones las m�s conocidas son 
 las siguientes:
-BackgroundSubtractorMOG
 BackgroundSubtractorMOG2
-BackgroundSubtractorGMG
 
 NOTA: usar como dato de entrada una secuencia de video que permita visualizar la detecci�n de los objetos 
 en movimiento. 
 
-****  La librer�a bgsegm.hpp no forma parte del release oficial de opencv
-	Se la encuentra como una librer�a adicional dentro del repositorio opencv-contrib
-	Se debe compilar opencv con este m�dulo de opencv-contrib para usar los algoritmos MOG y GMG  
-	Librer�a: https://github.com/Itseez/opencv_contrib
-	Referencia: https://putuyuwono.wordpress.com/2015/04/23/building-and-installing-opencv-3-0-on-windows-7-64-bit/
-****
 *********************************************************************************************************************/
 
 #include <stdio.h>
 #include <iostream>
-#include <sstream>
-//#include "opencv2/bgsegm.hpp" //librer�a que contiene los algoritmos
 #include "opencv2/highgui.hpp"
 #include <opencv2/video.hpp>
 #include <opencv2/features2d.hpp>
